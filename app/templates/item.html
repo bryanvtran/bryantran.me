@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+
+{% block main %}
+{% if project %}
+<div class="container inner">
+  <h1 class="heading project">{{ project['title'] }}</h1>
+  <p class="subtitle link">
+    <a class="muted"  href="//{{ project['url'] }}" target="_blank">{{ project['url'] }}</a>
+  </p>
+  <p class="subtitle">
+    Lorem ipsum dolor sit amet, mutat audire has ad. Et quo sumo feugiat argumentum, ius et labore putant. Quo an case temporibus, ne minimum commune oportere nam. Liber luptatum apeirian no ius. Viris sensibus scripserit an duo, probo doming mea no, eam cu congue aliquid corpora
+    ({{ project['date'] }}).
+  </p>
+</div>
+
+<img class="header-img" src="{{ url_for('static', filename='img/' ~ project['img']) }}" alt="Stock" />
+
+<div class="container inner">
+  <h2 class="subheading">Technologies</h2>
+  <p class="muted">{{ project['tech'] }}</p>
+</div>
+
+<div class="container inner">
+  <h2 class="subheading">Inspiration</h2>
+  <p class="muted">
+    {{ project['inspo'] }}
+  </p>
+</div>
+
+<div class="container">
+  <div class="img-wrapper">
+    {% for img in project['imgs'] %}
+      <img class="project-img" src="{{ url_for('static', filename='img/' ~ img) }}" alt="{{ img }}"  />
+    {% endfor %}
+  </div>
+</div>
+
+<div class="container inner">
+  <a href="{{ url_for('main') }}">
+    <p class="subheading muted text-center">
+      Return to homepage
+    </p>
+  </a>
+</div>
+
+{% else %}
+<div class="container inner">
+  <h1 class="heading project">Project does not exist</h1>
+  <p class="subtitle">
+    Sorry, we couldn't find this project. Please try again or return to the <a class="black" href="{{ url_for('main') }}">homepage</a>.
+  </p>
+</div>
+
+{% endif %}
+
+{% endblock %}

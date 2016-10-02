@@ -1,0 +1,19 @@
+{
+  "whereshouldieat": {
+      "title": "Where Should I Eat?",
+      "tagline": "Random restaurant generator",
+      "img": "stock.jpeg",
+      "url": "www.whereshouldieat.us",
+      "date": "2016",
+      "tech": "Python, Flask Framework, Bulma CSS, Yelp API",
+      "inspo": "Lorem ipsum dolor sit amet, mutat audire has ad. Et quo sumo feugiat argumentum, ius et labore putant. Quo an case temporibus, ne minimum commune oportere nam. Liber luptatum apeirian no ius. Viris sensibus scripserit an duo, probo doming mea no, eam cu congue aliquid corpora.",
+      "imgs": ["stock-square.jpeg", "stock-square.jpeg", "stock-square.jpeg"]
+  },
+  "stock2": {
+      "title": "Stock Photo 2",
+      "tagline": "Project tagline goes here",
+      "img": "stock2.jpeg",
+      "url": "stock2",
+      "date": "2016"
+  }
+}

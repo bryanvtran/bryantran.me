@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{%  block styles %}
+<style media="screen">
+{% for project,data in projects.iteritems()|reverse %}
+.{{ project }} {
+  background: url("{{ url_for('static', filename='img/' ~ data['img']) }}")
+}
+{% endfor %}
+</style>
+{% endblock %}
+
+{% block main %}
+<div class="container inner">
+  <h1 class="heading">Passionate about design and obsessed with simplicity</h1>
+  <p class="subtitle">
+    My name is Bryan, and I am currently studying computer science at UCLA. I am interested in anything web dev, fashion, music, photography, weightlifting, and traveling.
+  </p>
+  <p class="subtitle">
+    This is my personal playground that I will use to showcase some of the interesting projects I have participated in. I love meeting passionate people, so if you want to get in touch or have an awesome idea for a project, feel free to shoot me an email at bryanvantran@ucla.edu.
+  </p>
+  <hr>
+  <h2 class="subheading">Projects</h2>
+</div>
+<div class="container">
+  <div class="slider">
+    <div class="slider-inner">
+      {% for project,data in projects.iteritems()|reverse %}
+      <a href="{{ project }}" class="slider-img {{ project }}">
+        <span class="slider-title">{{ data['title'] }}</span>
+        <div class="slider-description">
+            <p class="slider-body">{{ data['tagline'] }}</p>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}
