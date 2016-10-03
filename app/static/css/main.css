@@ -147,12 +147,12 @@ a.slider-img:hover {
 .slider-description {
   position: absolute;
   left: 45px;
-  bottom: 44px;
+  top: 54px;
   z-index: 3;
 }
 
 p.slider-body {
-    font-size: 1em;
+    font-size: .8em;
     opacity: 0.8;
   }
 

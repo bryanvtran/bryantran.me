@@ -5,32 +5,34 @@
 <div class="container inner">
   <h1 class="heading project">{{ project['title'] }}</h1>
   <p class="subtitle link">
-    <a class="muted"  href="//{{ project['url'] }}" target="_blank">{{ project['url'] }}</a>
+    <a class="muted"  href="//{{ project['url'] }}" target="_blank">{% if project['position'] %}{{ project['position'] }}, {% endif %}{{ project['url'] }}</a>
   </p>
   <p class="subtitle">
-    Lorem ipsum dolor sit amet, mutat audire has ad. Et quo sumo feugiat argumentum, ius et labore putant. Quo an case temporibus, ne minimum commune oportere nam. Liber luptatum apeirian no ius. Viris sensibus scripserit an duo, probo doming mea no, eam cu congue aliquid corpora
+    {{ project['description'] }}
     ({{ project['date'] }}).
   </p>
 </div>
 
-<img class="header-img" src="{{ url_for('static', filename='img/' ~ project['img']) }}" alt="Stock" />
+<img class="header-img" src="{{ url_for('static', filename='img/' ~ page ~ '/' ~ project['main-img']) }}" alt="{{ page }}" />
 
 <div class="container inner">
   <h2 class="subheading">Technologies</h2>
   <p class="muted">{{ project['tech'] }}</p>
 </div>
 
+{% if project['inspo'] %}
 <div class="container inner">
   <h2 class="subheading">Inspiration</h2>
   <p class="muted">
     {{ project['inspo'] }}
   </p>
 </div>
+{% endif %}
 
 <div class="container">
   <div class="img-wrapper">
     {% for img in project['imgs'] %}
-      <img class="project-img" src="{{ url_for('static', filename='img/' ~ img) }}" alt="{{ img }}"  />
+      <img class="project-img" src="{{ url_for('static', filename='img/' ~ page ~ '/' ~ img) }}" alt="{{ img }}"  />
     {% endfor %}
   </div>
 </div>

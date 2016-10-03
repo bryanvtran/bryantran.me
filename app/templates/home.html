@@ -2,9 +2,9 @@
 
 {%  block styles %}
 <style media="screen">
-{% for project,data in projects.iteritems()|reverse %}
+{% for project,data in projects.iteritems() %}
 .{{ project }} {
-  background: url("{{ url_for('static', filename='img/' ~ data['img']) }}")
+  background: url("{{ url_for('static', filename='img/' ~ project ~ '/' ~ data['home-img']) }}")
 }
 {% endfor %}
 </style>
@@ -25,7 +25,7 @@
 <div class="container">
   <div class="slider">
     <div class="slider-inner">
-      {% for project,data in projects.iteritems()|reverse %}
+      {% for project,data in projects.iteritems() %}
       <a href="{{ project }}" class="slider-img {{ project }}">
         <span class="slider-title">{{ data['title'] }}</span>
         <div class="slider-description">
