@@ -696,7 +696,7 @@
                     this.ratios.containerToContent.width *
                     100 +
                     0.001 +
-                    5
+                    20
                 ).toFixed(maxDecimalPlaces) + '%';
             }
 

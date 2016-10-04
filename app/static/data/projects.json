@@ -107,7 +107,7 @@
     "main-img": "main.png",
     "url": "github.com/bryanvtran/supreme",
     "date": "2016",
-    "description": "Developed a script that scanned the Supreme webstore (supremenewyork.com) for new items based on specific keywords and images and automatically check out when found. Automated process to purchase items quicker (~2 seconds)",
+    "description": "Developed a script that scans the Supreme webstore (supremenewyork.com) for new items based on specific keywords and images and automatically check out when found. Automated process to purchase items quicker (~2 seconds)",
     "tech": "Python, Selenium, PhantomJS",
     "inspo": "I'm a huge fan of Supreme and really like their clothing. Unfortunately, whenever new items are released, they are sold out in a matter of seconds, so the number of pieces I am able to buy are limited. Thus, I decided to wrote a python script that would add the items to the cart for me and checkout, so I can buy multiple items."
   }
