@@ -53,39 +53,39 @@
     "slug": "sep",
     "title": "Sigma Eta Pi",
     "tagline": "Coed Entrepreneurship Fraternity",
-    "home-img": "sep-home.jpg",
-    "main-img": "sep-main.png",
+    "home-img": "sep-home.png",
+    "main-img": "sep-home.png",
     "position": "Webmaster",
     "url": "ucla.sigmaetapi.com",
     "date": "2015-2016",
     "description": "Tasked with redesigning and deploying the organization’s new responsive website, my goal was to optimize user experience and increase traffic with a professional, appealing design for the new website. Furthermore, I created marketing materials such as t-shirts, flyers, and banners using Adobe Photoshop and Illustrator",
     "tech": "HTML/CSS, Bootstrap CSS Framework, JavaScript, Photoshop, Illustrator",
-    "imgs": ["sep-badge.png", "sep-logo-fw16.png", "sep-banner.png", "front-overlay.jpg", "flyer.png"]
+    "imgs": ["sep-main.png", "sep-badge.png", "sep-logo-fw16.png", "sep-banner.png", "front-overlay.jpg", "flyer.png"]
   },
   {
     "slug": "yume",
     "title": "Yume Koi & Gardens",
     "tagline": "eCommerce Store For Japanese Koi",
     "home-img": "main-home.png",
-    "main-img": "main.png",
+    "main-img": "main-home.png",
     "url": "www.yumekoigardens.com",
     "date": "2016",
     "description": "Developed a new eCommerce website using Shopify and Craft CMS to sell koi and koi products with ease of use in mind for the client. Currently working on developing a separate website for \"Koi For Sale\" using Craft CMS for content management and blogging",
     "tech": "Shopify, PHP, Craft CMS, HTML/CSS, Materialize CSS Framework, JavaScript",
-    "imgs": ["food.png", "food2.png", "koiforsale.png", "responsive.png"]
+    "imgs": ["main.png", "food.png", "food2.png", "koiforsale.png", "responsive.png"]
   },
   {
     "slug": "boxcamp",
     "title": "BoxCamp",
     "tagline": "Summer Storage Solution",
     "home-img": "main-home.png",
-    "main-img": "main.png",
+    "main-img": "main-home.png",
     "position": "Web Developer",
     "url": "boxcamp.co",
     "date": "2016",
     "description": "Developed a brand new responsive website for the student-run storage company, implementing a fully functional payment system using the Braintree API and PayPal. Configured and maintained MySQL database servers",
     "tech": "PHP, HTML/CSS, Bootstrap CSS Framework, jQuery, BrainTree Payments",
-    "imgs": ["boxcamp-1.png", "boxcamp-2.png", "responsive.png"]
+    "imgs": ["main.png", "boxcamp-1.png", "boxcamp-2.png", "responsive.png"]
   },
   {
     "slug": "mcmxc",

@@ -16,7 +16,7 @@ def main():
     return render_template('home.html', projects=projects)
 
 @app.route("/<project>")
-def stock(project):
+def proj(project):
     projects = getJson("projects.json")
     selected_project = None
     for p in projects:
