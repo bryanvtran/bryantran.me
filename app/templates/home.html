@@ -14,7 +14,7 @@
     This is my personal playground that I will use to showcase some of the projects I have participated in. I love meeting passionate people, so if you want to get in touch or have an awesome idea for a project, feel free to shoot me an email at bryanvantran@ucla.edu.
   </p>
   <hr>
-  <h2 class="subheading">Projects</h2>``
+  <h2 class="subheading">Projects</h2>
 </div>
 <div class="container">
   <div data-fluffy-container data-fluffy-options='{"showScrollbars": false}'>
@@ -26,7 +26,7 @@
           <div class="slider-description">
               <p class="slider-body">{{ project['tagline'] }}</p>
           </div>
-          <img class="slider-imgs" src="{{ url_for('static', filename='img/' ~ project['slug'] ~ '/' ~ project['main-img']) }}" alt="">
+          <img class="slider-imgs" src="{{ url_for('static', filename='img/' ~ project['slug'] ~ '/' ~ project['home-img']) }}" alt="">
         </div>
       </a>
       {% endfor %}
