@@ -1,13 +1,7 @@
 {% extends "layout.html" %}
 
 {%  block styles %}
-<style media="screen">
-{% for project,data in projects.iteritems() %}
-.{{ project }} {
-  background: url("{{ url_for('static', filename='img/' ~ project ~ '/' ~ data['home-img']) }}")
-}
-{% endfor %}
-</style>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/fluffy.min.css') }}" media="screen">
 {% endblock %}
 
 {% block main %}
@@ -20,20 +14,27 @@
     This is my personal playground that I will use to showcase some of the projects I have participated in. I love meeting passionate people, so if you want to get in touch or have an awesome idea for a project, feel free to shoot me an email at bryanvantran@ucla.edu.
   </p>
   <hr>
-  <h2 class="subheading">Projects</h2>
+  <h2 class="subheading">Projects</h2>``
 </div>
 <div class="container">
-  <div class="slider">
-    <div class="slider-inner">
-      {% for project,data in projects.iteritems() %}
-      <a href="{{ project }}" class="slider-img {{ project }}">
-        <span class="slider-title">{{ data['title'] }}</span>
-        <div class="slider-description">
-            <p class="slider-body">{{ data['tagline'] }}</p>
+  <div data-fluffy-container data-fluffy-options='{"showScrollbars": false}'>
+    <div data-fluffy-content>
+      {% for project in projects %}
+      <a href="{{ project['slug'] }}">
+        <div class="slider-img-wrapper">
+          <span class="slider-title">{{ project['title'] }}</span>
+          <div class="slider-description">
+              <p class="slider-body">{{ project['tagline'] }}</p>
+          </div>
+          <img class="slider-imgs" src="{{ url_for('static', filename='img/' ~ project['slug'] ~ '/' ~ project['main-img']) }}" alt="">
         </div>
       </a>
       {% endfor %}
     </div>
   </div>
 </div>
+{% endblock %}
+
+{% block javascript %}
+<script src="{{ url_for('static', filename='js/fluffy.js')}}"></script>
 {% endblock %}

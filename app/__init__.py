@@ -20,8 +20,8 @@ def stock(project):
     projects = getJson("projects.json")
     selected_project = None
     for p in projects:
-        if p == project:
-            selected_project = projects[p]
+        if p['slug'] == project:
+            selected_project = p
     return render_template('item.html', page=project, project=selected_project)
 
 if __name__ == "__main__":

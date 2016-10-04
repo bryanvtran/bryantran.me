@@ -1,17 +1,18 @@
-{
-  "whereshouldieat": {
+[
+  {
+      "slug": "whereshouldieat",
       "title": "Where Should I Eat?",
-      "tagline": "Random restaurant generator",
+      "tagline": "Random Restaurant Generator",
       "home-img": "whereshouldieat.png",
       "main-img": "whereshouldieat.png",
       "url": "www.whereshouldieat.us",
       "date": "2016",
       "description": "Built for the indecisive souls who spend hours trying to find the right place to eat. This is a small Flask application that generates random results based on specific preference and location inputs using the Yelp API",
       "tech": "Python, Flask Framework, Bulma CSS Framework, HTML/CSS, JavaScript, Yelp API",
-      "inspo": "I always found myself spending hours on Yelp trying to figure out what to eat for dinner, what to drink after or what to get for dessert. Instead of struggling with indesiciveness, I decided to create whereshouldieat.us. This app aims to take out the difficulty of choices and generates random results based on where you are and what you feel like eating.",
       "imgs": ["whereshouldieat.png", "whereshouldieat-2.png"]
   },
-  "arkaive": {
+  {
+      "slug": "arkaive",
       "title": "Arkaive",
       "tagline": "Education Technologies",
       "home-img": "main-home.png",
@@ -24,76 +25,82 @@
       "inspo": "Debugged across the stack, working with back-end developers to solve issues and implement new features across the Symfony website with Twig template engine.",
       "imgs": ["main.png", "login.png", "courses.png", "responsive.png"]
   },
-  "calfussman": {
-      "title": "Cal Fussman",
-      "tagline": "Client Portfolio",
-      "home-img": "main.png",
-      "main-img": "main.png",
-      "url": "www.calfussman.com",
-      "date": "2016",
-      "description": "Developed a brand new responsive website for New York Times bestselling author, keynote speaker, and consultant Cal Fussman.",
-      "tech": "PHP, HTML/CSS, Legacy CSS Framework, JavaScript",
-      "inspo": "I aimed to create a professional, simple, and appealing repsonsive website for Cal in order to promote his brand. We're currently working on a rebranding to a more blue, optimistic vibe.",
-      "imgs": ["main.png", "consulting.png", "what.png", "responsive.png"]
+  {
+    "slug": "calfussman",
+    "title": "Cal Fussman",
+    "tagline": "Client Portfolio",
+    "home-img": "main.png",
+    "main-img": "main.png",
+    "url": "www.calfussman.com",
+    "date": "2016",
+    "description": "Developed a brand new responsive website for New York Times bestselling author, keynote speaker, and consultant Cal Fussman.",
+    "tech": "PHP, HTML/CSS, Legacy CSS Framework, JavaScript",
+    "inspo": "I aimed to create a professional, simple, and appealing repsonsive website for Cal in order to promote his brand. We're currently working on a rebranding to a more blue, optimistic vibe.",
+    "imgs": ["main.png", "consulting.png", "what.png", "responsive.png"]
   },
-  "sep": {
-      "title": "Sigma Eta Pi",
-      "tagline": "Coed Entrepreneurship Fraternity",
-      "home-img": "sep-home.png",
-      "main-img": "sep-main.png",
-      "position": "Webmaster",
-      "url": "ucla.sigmaetapi.com",
-      "date": "2015-2016",
-      "description": "Tasked with redesigning and deploying the organization’s new responsive website to optimize user experience and increase traffic. Generated marketing materials such as t-shirts, flyers, and banners using Adobe Photoshop and Illustrator",
-      "tech": "HTML/CSS, Bootstrap CSS Framework, JavaScript, Photoshop, Illustrator",
-      "inspo": "My goal was to create professional, simple, and appealing designs for the fraternity in order to promote the fraternity on campus.",
-      "imgs": ["sep-badge.png", "sep-logo-fw16.png", "sep-banner.png", "front-overlay.jpg", "flyer.png"]
+  {
+    "slug": "sep",
+    "title": "Sigma Eta Pi",
+    "tagline": "Coed Entrepreneurship Fraternity",
+    "home-img": "sep-home.png",
+    "main-img": "sep-main.png",
+    "position": "Webmaster",
+    "url": "ucla.sigmaetapi.com",
+    "date": "2015-2016",
+    "description": "Tasked with redesigning and deploying the organization’s new responsive website to optimize user experience and increase traffic. Generated marketing materials such as t-shirts, flyers, and banners using Adobe Photoshop and Illustrator",
+    "tech": "HTML/CSS, Bootstrap CSS Framework, JavaScript, Photoshop, Illustrator",
+    "inspo": "My goal was to create professional, simple, and appealing designs for the fraternity in order to promote the fraternity on campus.",
+    "imgs": ["sep-badge.png", "sep-logo-fw16.png", "sep-banner.png", "front-overlay.jpg", "flyer.png"]
   },
-  "yume": {
-      "title": "Yume Koi & Gardens",
-      "tagline": "eCommerce store for Japanese Koi",
-      "home-img": "main.png",
-      "main-img": "main.png",
-      "url": "www.yumekoigardens.com",
-      "date": "2016",
-      "description": "Developed a new eCommerce website using Shopify and Craft CMS to sell koi and koi products",
-      "tech": "Shopify, PHP, Craft CMS, HTML/CSS, Materialize CSS Framework, JavaScript",
-      "inspo": "Used Shopify to build the eCommerce website because of its ease of use for the client to update and add products. Developed a separate website for \"Koi For Sale\" using Craft CMS for content management and blogging.",
-      "imgs": ["food.png", "food2.png", "koiforsale.png", "responsive.png"]
+  {
+    "slug": "yume",
+    "title": "Yume Koi & Gardens",
+    "tagline": "eCommerce Store For Japanese Koi",
+    "home-img": "main.png",
+    "main-img": "main.png",
+    "url": "www.yumekoigardens.com",
+    "date": "2016",
+    "description": "Developed a new eCommerce website using Shopify and Craft CMS to sell koi and koi products",
+    "tech": "Shopify, PHP, Craft CMS, HTML/CSS, Materialize CSS Framework, JavaScript",
+    "inspo": "Used Shopify to build the eCommerce website because of its ease of use for the client to update and add products. Developed a separate website for \"Koi For Sale\" using Craft CMS for content management and blogging.",
+    "imgs": ["food.png", "food2.png", "koiforsale.png", "responsive.png"]
   },
-  "boxcamp": {
-      "title": "BoxCamp",
-      "tagline": "Summer Storage Solution",
-      "home-img": "main.png",
-      "main-img": "main.png",
-      "position": "Web Developer",
-      "url": "boxcamp.co",
-      "date": "2016",
-      "description": "Developed a brand new responsive website for the student-run storage company, implementing a fully functional payment system using the Braintree API and PayPal. Configured and maintained MySQL database servers",
-      "tech": "PHP, HTML/CSS, Bootstrap CSS Framework, jQuery, BrainTree Payments",
-      "inspo": "My goal was to create professional, simple, and appealing designs for the fraternity in order to promote the fraternity on campus.",
-      "imgs": ["boxcamp-1.png", "boxcamp-2.png", "responsive.png"]
+  {
+    "slug": "boxcamp",
+    "title": "BoxCamp",
+    "tagline": "Summer Storage Solution",
+    "home-img": "main.png",
+    "main-img": "main.png",
+    "position": "Web Developer",
+    "url": "boxcamp.co",
+    "date": "2016",
+    "description": "Developed a brand new responsive website for the student-run storage company, implementing a fully functional payment system using the Braintree API and PayPal. Configured and maintained MySQL database servers",
+    "tech": "PHP, HTML/CSS, Bootstrap CSS Framework, jQuery, BrainTree Payments",
+    "inspo": "My goal was to create professional, simple, and appealing designs for the fraternity in order to promote the fraternity on campus.",
+    "imgs": ["boxcamp-1.png", "boxcamp-2.png", "responsive.png"]
   },
-  "mcmxc": {
-      "title": "MCMXC Clothing",
-      "tagline": "Clothing Company",
-      "home-img": "main.png",
-      "main-img": "main.png",
-      "url": "1990clothing.com",
-      "date": "2016",
-      "description": "Designed and created website for local clothing company and integrated it with online store",
-      "tech": "HTML/CSS, JavaScript, jQuery",
-      "imgs": ["main.png", "gallery.png", "responsive.png"]
+  {
+    "slug": "mcmxc",
+    "title": "MCMXC Clothing",
+    "tagline": "Clothing Company",
+    "home-img": "main.png",
+    "main-img": "main.png",
+    "url": "1990clothing.com",
+    "date": "2016",
+    "description": "Designed and created website for local clothing company and integrated it with online store",
+    "tech": "HTML/CSS, JavaScript, jQuery",
+    "imgs": ["main.png", "gallery.png", "responsive.png"]
   },
-  "supreme": {
-      "title": "Supreme ATC Bot",
-      "tagline": "Automated Checkout Script",
-      "home-img": "main.png",
-      "main-img": "main.png",
-      "url": "github.com/bryanvtran/supreme",
-      "date": "2016",
-      "description": "Developed a script that scanned the Supreme webstore (supremenewyork.com) for new items based on specific keywords and images and automatically check out when found. Automated process to purchase items quicker (~2 seconds)",
-      "tech": "Python, Selenium, PhantomJS",
-      "inspo": "I'm a huge fan of Supreme and really like their clothing. Unfortunately, whenever new items are released, they are sold out in a matter of seconds, so the number of pieces I am able to buy are limited. Thus, I decided to wrote a python script that would add the items to the cart for me and checkout, so I can buy multiple items."
+  {
+    "slug": "supreme",
+    "title": "Supreme ATC Bot",
+    "tagline": "Automated Checkout Script",
+    "home-img": "main.png",
+    "main-img": "main.png",
+    "url": "github.com/bryanvtran/supreme",
+    "date": "2016",
+    "description": "Developed a script that scanned the Supreme webstore (supremenewyork.com) for new items based on specific keywords and images and automatically check out when found. Automated process to purchase items quicker (~2 seconds)",
+    "tech": "Python, Selenium, PhantomJS",
+    "inspo": "I'm a huge fan of Supreme and really like their clothing. Unfortunately, whenever new items are released, they are sold out in a matter of seconds, so the number of pieces I am able to buy are limited. Thus, I decided to wrote a python script that would add the items to the cart for me and checkout, so I can buy multiple items."
   }
-}
+]

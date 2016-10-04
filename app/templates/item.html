@@ -1,5 +1,7 @@
 {% extends "layout.html" %}
 
+{% block title %}{% if project %}{{ project['title'] }}{% endif %}{% endblock %}
+
 {% block main %}
 {% if project %}
 <div class="container inner">
@@ -13,21 +15,12 @@
   </p>
 </div>
 
-<img class="header-img" src="{{ url_for('static', filename='img/' ~ page ~ '/' ~ project['main-img']) }}" alt="{{ page }}" />
-
 <div class="container inner">
   <h2 class="subheading">Technologies</h2>
   <p class="muted">{{ project['tech'] }}</p>
 </div>
 
-{% if project['inspo'] %}
-<div class="container inner">
-  <h2 class="subheading">Inspiration</h2>
-  <p class="muted">
-    {{ project['inspo'] }}
-  </p>
-</div>
-{% endif %}
+<img class="header-img" src="{{ url_for('static', filename='img/' ~ page ~ '/' ~ project['main-img']) }}" alt="{{ page }}" />
 
 <div class="container">
   <div class="img-wrapper">
