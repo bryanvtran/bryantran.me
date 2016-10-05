@@ -6,7 +6,7 @@
 
 {% block main %}
 <div class="container inner">
-  <h1 class="heading">Passionate about design and obsessed with simplicity</h1>
+  <h1 class="heading">Passionate about design and inspired by simplicity</h1>
   <p class="subtitle">
     My name is Bryan, and I am currently studying computer science at UCLA. I am interested in anything web dev, fashion, music, photography, weightlifting, and traveling.
   </p>
@@ -17,7 +17,7 @@
   <h2 class="subheading">Projects</h2>
 </div>
 <div class="container">
-  <div data-fluffy-container data-fluffy-options='{"showScrollbars": false}'>
+  <div data-fluffy-container data-fluffy-options='{"showScrollbars": false, "mouseDamp": 40}'>
     <div data-fluffy-content>
       {% for project in projects %}
       <a href="{{ project['slug'] }}">
