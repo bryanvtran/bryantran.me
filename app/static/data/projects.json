@@ -9,7 +9,7 @@
       "date": "2016",
       "description": "Built for the indecisive souls who spend hours trying to find the right place to eat. This is a minimal Flask application that generates random results based on specific preference and location inputs using the Yelp API",
       "tech": "Python, Flask Framework, Bulma CSS Framework, HTML/CSS, JavaScript, Yelp API",
-      "imgs": ["whereshouldieat.png", "whereshouldieat-2.png"]
+      "imgs": ["whereshouldieat.png", "whereshouldieat-2.png", "mobile.png", "mobile-2.png"]
   },
   {
       "slug": "startupfairla",
@@ -22,7 +22,7 @@
       "date": "2016",
       "description": "I worked with startups and other organizations on campus to put together a startup fair for LA-based startups to connect with UCLA students. I was responsible for the website and promotional material such as flyers, and t-shirts",
       "tech": "HTML/CSS, JavaScript, BootStrap CSS Framework, PhotoShop, Illustrator",
-      "imgs": ["main.png", "about.png", "mobile.png", "mockups.png", "flyer.png"]
+      "imgs": ["main.png", "about.png", "mobile-1.png", "mobile-2.png", "mockups.png", "flyer.png"]
   },
   {
       "slug": "arkaive",
@@ -35,19 +35,19 @@
       "date": "2016",
       "description": "I focused on the front-end, bridging the gap between design and engineering to build a responsive, user-friendly dashboard for school administrators and athletic departments. Also, I was responsible for creating mockups of new app features and promotional materials such as decks and flyers",
       "tech": "PHP, Symfony Framework, Twig Templating, HTML/CSS, jQuery, JavaScript, BootStrap CSS Framework, PhotoShop, Illustrator",
-      "imgs": ["main.png", "login.png", "courses.png", "responsive.png"]
+      "imgs": ["main.png", "login.png", "courses.png", "mobile-1.png", "mobile-2.png"]
   },
   {
     "slug": "calfussman",
     "title": "Cal Fussman",
     "tagline": "Client Portfolio",
     "home-img": "main-home.jpg",
-    "main-img": "main.png",
+    "main-img": "main-page.png",
     "url": "www.calfussman.com",
     "date": "2016",
     "description": "I developed a brand new responsive website for New York Times bestselling author, keynote speaker, and consultant Cal Fussman. In doing so, I strived for professionalism and simplicity to promote Cal's brand. We're currently working on rebranding to a more blue, optimistic vibe",
     "tech": "PHP, HTML/CSS, Legacy CSS Framework, JavaScript",
-    "imgs": ["main.png", "consulting.png", "what.png", "responsive.png"]
+    "imgs": ["main.png", "consulting.png", "what.png", "mobile-1.png", "mobile-2.png"]
   },
   {
     "slug": "sep",
@@ -72,32 +72,32 @@
     "date": "2016",
     "description": "Developed a new eCommerce website using Shopify and Craft CMS to sell koi and koi products with ease of use in mind for the client. Currently working on developing a separate website for \"Koi For Sale\" using Craft CMS for content management and blogging",
     "tech": "Shopify, PHP, Craft CMS, HTML/CSS, Materialize CSS Framework, JavaScript",
-    "imgs": ["main.png", "food.png", "food2.png", "koiforsale.png", "responsive.png"]
+    "imgs": ["koiforsale.png", "mobile-1.png", "mobile-2.png"]
   },
   {
     "slug": "boxcamp",
     "title": "BoxCamp",
     "tagline": "Summer Storage Solution",
-    "home-img": "main-home.png",
-    "main-img": "main-home.png",
+    "home-img": "main-home.jpeg",
+    "main-img": "main-home.jpeg",
     "position": "Web Developer",
     "url": "boxcamp.co",
     "date": "2016",
     "description": "Developed a brand new responsive website for the student-run storage company, implementing a fully functional payment system using the Braintree API and PayPal. Configured and maintained MySQL database servers",
     "tech": "PHP, HTML/CSS, Bootstrap CSS Framework, jQuery, BrainTree Payments",
-    "imgs": ["main.png", "boxcamp-1.png", "boxcamp-2.png", "responsive.png"]
+    "imgs": ["main.png", "boxcamp-1.png", "boxcamp-2.png", "mobile-1.png", "mobile-2.png"]
   },
   {
     "slug": "mcmxc",
     "title": "MCMXC Clothing",
     "tagline": "Clothing Company",
     "home-img": "main-home.jpg",
-    "main-img": "main.png",
+    "main-img": "main-home.jpg",
     "url": "1990clothing.com",
     "date": "2016",
     "description": "Designed and created website for local clothing company and integrated it with online store",
     "tech": "HTML/CSS, JavaScript, jQuery",
-    "imgs": ["main.png", "gallery.png", "responsive.png"]
+    "imgs": ["main.png", "gallery.png"]
   },
   {
     "slug": "supreme",
